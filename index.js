@@ -1,7 +1,7 @@
 const http = require('http');
 
 const PORT = 80;
-const TITLE = process.env.TITLE || 'Default Tiwtle';
+const TITLE = process.env.TITLE || 'Default Title';
 const MESSAGE = process.env.MESSAGE || 'Default Mwessage';
 
 const requestHandler = (req, res) => {
