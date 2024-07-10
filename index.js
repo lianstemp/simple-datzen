@@ -2,7 +2,7 @@ const http = require('http');
 
 const PORT = 80;
 const TITLE = process.env.TITLE || 'Default Title';
-const MESSAGE = process.env.MESSAGE || 'Default Mwessage';
+const MESSAGE = process.env.MESSAGE || 'Default Message';
 
 const requestHandler = (req, res) => {
     res.writeHead(200, {'Content-Type': 'text/plain'});
